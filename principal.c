@@ -11,7 +11,7 @@
 #include"libros.h"
 #include"prestamos.h"
 #include"multas.h"
-
+//Estas son las librerias a√±adidas en el codigo que estaremos usando
 int main()
 {
 	int opc,cantusuarios=0,cantlibros=0,cantprestamos=0,cantmultas=0;
@@ -22,10 +22,10 @@ int main()
 	struct prestamo prestamos[200];
 	struct multa multas[200];
 	
-	//Maximizar el tamaÒo de la consola
+	//Maximizar el tama√±o de la consola
 	HWND hWnd = GetConsoleWindow();
 	ShowWindow(hWnd,SW_SHOWMAXIMIZED);
-	// Establecer el idioma a espaÒol
+	// Establecer el idioma a espa√±ol
 	setlocale(LC_ALL, "spanish");
 	
 	//Se leen los datos
